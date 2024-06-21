@@ -5,7 +5,7 @@ import Card from "./components/card";
 
 function App() {
 
-    const baseUrl = "http://localhost:3001"
+    const baseUrl = "cc-demo-app-alb-58967056.ap-southeast-2.elb.amazonaws.com"
 
     const [values, setValues] = useState();
     const [games, setGames] = useState();
